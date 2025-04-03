@@ -94,7 +94,7 @@ class _VideoEditScreenState extends State<VideoEditScreen> {
                       ),
                     ),
                     const SizedBox(height: 16),
-                    TrimEditor(
+                    TrimmerView(
                       trimmer: _trimmer,
                       viewerHeight: 50,
                       viewerWidth: MediaQuery.of(context).size.width * 0.9,
